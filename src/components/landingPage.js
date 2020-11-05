@@ -1,6 +1,7 @@
 import React from 'react';
 import 'materialize-css';
-import { Slider, Slide, Caption, Icon } from 'react-materialize';
+import SocialFollow from './socialFollow'
+import { Slider, Slide, Caption, Button, Icon } from 'react-materialize';
 import particles from '../images/particles.png'
 import AboutMe from './aboutMe'
 
@@ -23,25 +24,21 @@ function LandingPage() {
                         <h3>
                             HELLO, I'M
                          </h3>
-                        <h2>
+                        <h3>
                             FATIMA OLASUNKANMI-OJO
-                         </h2>
+                         </h3>
                         <h5 className="light grey-text text-lighten-3">
-                            A Software Engineer based in Lagos, Nigeria..
+                            A Software Engineer based in Lagos, Nigeria.
                         </h5>
                         <AboutMe />
-                        <div style={{ marginTop: "150px" }}>
-                            <Icon small>
-                                cloud
-                            </Icon>
-                        </div>
+                        <SocialFollow />
                     </Caption>
 
                 </Slide>
 
             </Slider>
 
-        </div>
+        </div >
 
     )
 }
