@@ -1,8 +1,8 @@
 import React from 'react';
 import 'materialize-css';
 import SocialFollow from './socialFollow'
-import { Slider, Slide, Caption, Button, Icon } from 'react-materialize';
-import particles from '../images/particles.png'
+import { Slider, Slide, Caption } from 'react-materialize';
+import particles from './images/particles.png'
 import AboutMe from './aboutMe'
 
 
@@ -20,7 +20,7 @@ function LandingPage() {
                 }}
             >
                 <Slide image={<img alt="sparkling" src={particles} />}>
-                    <Caption placement="center">
+                    <Caption placement="center" style={{ paddingTop: "40px" }}>
                         <h3>
                             HELLO, I'M
                          </h3>

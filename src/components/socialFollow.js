@@ -6,9 +6,9 @@ export default function SocialFollow() {
     return (
         <div>
             <div class="social-container" style={{ marginTop: "150px" }}>
-                <p>Connect with me on social media</p>
-                <a href="https://www.youtube.com/c/jamesqquick"
-                    className="youtube social">
+                <p>Connect with me on social media platforms</p>
+                <a href="https://github.com/fatima-ola"
+                    className="github social">
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
                 <a href="https://www.facebook.com/learnbuildteach/"

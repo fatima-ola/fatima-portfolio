@@ -5,33 +5,10 @@ import AboutFatima from './aboutFatima'
 function AboutMe() {
     return (
         <div>
-            <Modal
-                actions={[
-                    <Button flat modal="close" node="button" waves="green">Close</Button>
-                ]}
-                bottomSheet={false}
-                fixedFooter={false}
-                // header="Fatima Olasunkanmi-Ojo"
-                id="Modal-0"
-                open={false}
-                options={{
-                    dismissible: true,
-                    endingTop: '10%',
-                    inDuration: 250,
-                    onCloseEnd: null,
-                    onCloseStart: null,
-                    onOpenEnd: null,
-                    onOpenStart: null,
-                    opacity: 0.5,
-                    outDuration: 250,
-                    preventScrolling: true,
-                    startingTop: '4%'
-                }}
-                // root={[object HTMLBodyElement]}
-                trigger={<Button node="button">ABOUT ME</Button>}
-            >
+            <div>
                 <AboutFatima />
-            </Modal>
+            </div>
+
             <Modal
                 actions={[
                     <Button flat modal="close" node="button" waves="green">Close</Button>
