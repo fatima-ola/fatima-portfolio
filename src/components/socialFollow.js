@@ -11,7 +11,7 @@ export default function SocialFollow() {
                     className="github social">
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
-                <a href="https://www.facebook.com/learnbuildteach/"
+                <a href="https://web.facebook.com/olasunkanmi.fatima"
                     className="facebook social">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
