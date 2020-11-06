@@ -15,21 +15,22 @@ export default function SocialFollow() {
                     className="facebook social">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
-                <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+                <a href="https://twitter.com/fatima_ola1" className="twitter social">
                     <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
                 <a href="https://www.instagram.com/learnbuildteach"
                     className="instagram social">
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
-                <a href="https://www.instagram.com/learnbuildteach"
+                <a href="https://medium.com/@kashy200/"
                     className="medium social">
                     <FontAwesomeIcon icon={faMedium} size="2x" />
                 </a>
-                <a href="https://www.instagram.com/learnbuildteach"
+                <a href="https://www.linkedin.com/in/fatima-olasunkanmi-ojo"
                     className="linkedin social">
                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                 </a>
+               
             </div>
         </div>
     )
