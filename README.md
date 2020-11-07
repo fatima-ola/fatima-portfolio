@@ -1,4 +1,4 @@
-#link to view the portfolio: https://fatima-olasunkanmi-ojo.netlify.app/
+link to view the portfolio: https://fatima-olasunkanmi-ojo.netlify.app/
 
 # Getting Started with Create React App
 
